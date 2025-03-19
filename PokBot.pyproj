@@ -23,9 +23,11 @@
   <ItemGroup>
     <Compile Include="PokBot.py" />
     <Compile Include="RecognitionText.py" />
+    <Compile Include="RJson.py" />
     <Compile Include="Test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="TrainCards.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
